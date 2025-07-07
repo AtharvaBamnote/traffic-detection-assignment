@@ -1,0 +1,14 @@
+# Core ML/vision libraries
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python
+numpy
+matplotlib
+
+# YOLOv8 + inference SDK
+ultralytics>=8.0.100
+supervision>=0.15.0
+inference>=0.6.2
+
+# Utility
+requests
