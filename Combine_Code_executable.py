@@ -7,7 +7,7 @@ import numpy as np
 
 # Load image
 try:
-    image = load_image_bgr("https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1651869427801.jpg-org")
+    image = load_image_bgr("") #coopy path of the image 
     if image is None:
         raise ValueError("Failed to load image from URL")
 except Exception as e:
